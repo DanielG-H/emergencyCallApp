@@ -20,8 +20,7 @@
         android:id="@+id/scrollView3"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_constraintTop_toBottomOf="@+id/maintext"
-        android:layout_constraintBottom_toBottomOf="parent">
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -131,6 +130,7 @@
             android:text="@string/dont_have_account" />
 
         <TextView
+            android:id="@+id/tv_sign_up"
             style="@style/clickable_blue_subtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
