@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Theme.HackathonApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.HackathonApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">#ffffff</item>
@@ -37,6 +37,10 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">#FF000000</item>
         <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="tap_to_start_subtitle" parent="subtitle_but_black_and_bold">
+        <item name="android:textSize">25sp</item>
     </style>
 
     <style name="text_for_buttons">
