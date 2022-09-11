@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="Theme.HackathonApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="android:textStyle">italic</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:textSize">20sp</item>
     </style>
@@ -31,5 +31,22 @@
         <item name="android:textStyle">italic</item>
         <item name="android:textColor">#FF000000</item>
         <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="subtitle_but_black_and_bold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="text_for_buttons">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:backgroundTint">#0074b7</item>
+    </style>
+
+    <style name="clickable_blue_subtitle" parent="subtitle_but_black_and_bold">
+        <item name="android:textColor">#0074b7</item>
     </style>
 </resources>
