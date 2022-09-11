@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">HackathonApp</string>
+    <string name="nursik_main_title">Nursik</string>
+    <string name="welcome_sign_in">Welcome to Nursik!</string>
+    <string name="sign_in_to_start">Please sign in to start</string>
+
+    <string name="write_text">Write text here &#8230;</string>
+
+    <string name="avg_heart_rate">Average Heart Rate</string>
+    <string name="signals_status">Status</string>
 </resources>
