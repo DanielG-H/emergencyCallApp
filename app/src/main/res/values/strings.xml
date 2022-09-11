@@ -17,4 +17,11 @@
     <string name="avg_heart_rate">Average Heart Rate</string>
     <string name="signals_status">Status</string>
     <string name="Nursik_name">NURSIK</string>
+    <string name="create_account_text">Create Account</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="hint_full_name">Enter full name</string>
+    <string name="hint_email">Enter email</string>
+    <string name="hint_emergency_phone">Enter emergency phone contact</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="create_account">CREATE ACCOUNT</string>
 </resources>
