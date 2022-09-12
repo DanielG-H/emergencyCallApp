@@ -16,56 +16,51 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/emergency_phonersz" />
 
+
     <TextView
         android:id="@+id/tv_avg_heart_rate_homescreen"
         style="@style/avg_heart_rate_homescreen"
         android:layout_width="282dp"
         android:layout_height="75dp"
+        android:layout_marginTop="68dp"
         android:text="@string/avg_heart_rate"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_show_avg_heart_rate"
+        style="@style/subtitle_for_data"
+        android:layout_width="282dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="10dp"
+        android:text="95"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_avg_heart_rate_homescreen" />
 
     <TextView
         android:id="@+id/tv_signals_status_homescreen"
         style="@style/signals_status_homescreen"
         android:layout_width="197dp"
         android:layout_height="50dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="50dp"
         android:text="@string/signals_status"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_show_avg_heart_rate" />
 
-    <EditText
-        android:id="@+id/editTextNumberDecimal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="numberDecimal"
+    <TextView
+        android:id="@+id/tv_show_signals_status"
+        style="@style/subtitle_for_data"
+        android:layout_width="197dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="Stable"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_avg_heart_rate_homescreen" />
-
-    <EditText
-        android:id="@+id/editTextNumberDecimal2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_avg_heart_rate_homescreen" />
-
-    <EditText
-        android:id="@+id/editTextNumberDecimal3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_signals_status_homescreen" />
 
