@@ -1,4 +1,4 @@
-package com.example.hackathonapp.account;
+package com.example.hackathonapp;
 
 public class Account {
     private static int idAccount = 0;

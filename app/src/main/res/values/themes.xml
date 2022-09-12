@@ -8,13 +8,17 @@
 
     <style name="avg_heart_rate_homescreen">
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#003060</item>
+        <item name="android:textColor">#0074b7</item>
         <item name="android:textSize">25sp</item>
         <item name="android:gravity">center</item>
     </style>
 
+    <style name="subtitle_for_data" parent="avg_heart_rate_homescreen">
+        <item name="android:textColor">#FF000000</item>
+    </style>
+
     <style name="signals_status_homescreen" parent="avg_heart_rate_homescreen">
-        <item name="android:textColor">#003060</item>
+        <item name="android:textColor">#0074b7</item>
     </style>
 
     <style name="main_title">
